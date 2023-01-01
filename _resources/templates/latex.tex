@@ -114,8 +114,20 @@ $else$
 $endif$
   \defaultfontfeatures{Scale=MatchLowercase}
   \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
-\setmainfont{IBM Plex Sans}
-\setsansfont{Patua One}
+
+\setmainfont{IBMPlexSans}[
+  Path=./fonts/IBM_Plex_Sans/,
+  Extension = .ttf,
+  UprightFont=*-Regular,
+  BoldFont=*-Bold,
+  ItalicFont=*-Italic,
+  BoldItalicFont=*-BoldItalic
+  ]
+\setsansfont{PatuaOne}[
+  Path=./fonts/Patua_One/,
+  Extension = .ttf,
+  UprightFont=*-Regular
+  ]
 $if(monofont)$
   \setmonofont[$for(monofontoptions)$$monofontoptions$$sep$,$endfor$]{$monofont$}
 $endif$
@@ -459,7 +471,7 @@ $endif$
 % \counterwithin*{figure}{section}
 %\counterwithin*{figure}{subsection}
 
-\usepackage[breakable]{tcolorbox}
+\usepackage{tcolorbox}
 
 \definecolor{cosmiclatte}{RGB}{255, 248, 231}
 \definecolor{justoffwhite}{RGB}{255, 254, 250}

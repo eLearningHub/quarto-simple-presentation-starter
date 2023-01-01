@@ -10,7 +10,7 @@
 
 # Icon must end with two \r
 Icon
-
+git@github.com:eLearningHub/quarto-simple-presentation-starter.git
 
 # Thumbnails
 ._*
@@ -37,3 +37,5 @@ Temporary Items
 /.quarto/
 
 *.R
+/.luarc.json
+_PRESENTATIONS

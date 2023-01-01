@@ -35,7 +35,7 @@ jobs:
           path: _PRESENTATIONS/Example-Input
 
       - name: Index
-        run: cp _PRESENTATIONS/Example-Input/Example-Input.html _PRESENTATIONS/Example-Input/index.html
+        run: cp _PRESENTATIONS/Example-Input/Example-Input.htm _PRESENTATIONS/Example-Input/index.html
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3

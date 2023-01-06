@@ -31,7 +31,7 @@ jobs:
       - name: Upload
         uses: actions/upload-artifact@master
         with:
-          name: paper
+          name: slides
           path: _PRESENTATIONS/Example-Input
 
       - name: Index
